@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery.js"></script>
+<script>
+$(document).ready(function(){
+
+    $("#p1").click(function(){
+    	$("#i1").slideToggle({
+    	opacity: '1',
+    	height: '400px', 
+    	width: '400px', top:'100', bottom:'400px'
+    	})       
+    });
+
+	$("#p2").mouseenter(function(){
+        $("#i2").animate({
+        opacity: '1',
+        height: '400px',
+        width: '400px',bottom:'100px',top:'400px'	
+        });
+    });
+
+	$("#p3").mouseenter(function(){
+        $("#i3").animate({
+        opacity: '1',
+        height: '200px', 
+        width: '200px',left:'400px',top:'200px'	
+        });
+
+          $("#i3").animate({
+        opacity: '1',
+        height: '200px', 
+        width: '200px',left:'400px',top:'400px'	
+        });
+
+        $("#i3").animate({
+        opacity: '1',
+        height: '200px', 
+        width: '200px',left:'400px',top:'200px'	
+        });
+
+          $("#i3").animate({
+        opacity: '1',
+        height: '200px', 
+        width: '200px',left:'400px',top:'400px'	
+        });
+
+        $("#i3").animate({
+        opacity: '1',
+        height: '200px', 
+        width: '200px',left:'400px',top:'200px'	
+        });
+
+          $("#i3").animate({
+        opacity: '1',
+        height: '200px', 
+        width: '200px',left:'400px',top:'400px'	
+        });
+
+        $("#i3").animate({
+        opacity: '1',
+        height: '200px', 
+        width: '200px',left:'400px',top:'200px'	
+        });
+
+          $("#i3").animate({
+        opacity: '1',
+        height: '200px', 
+        width: '200px',left:'400px',top:'400px'	
+        });
+    });
+
+    $("#p4").mouseenter(function(){
+        $("#i5").animate({
+        opacity: '0',
+        height: '100px', 
+        width: '100px',left:'10px',top:'500px'	
+        });
+    });
+
+    $("#p5").mouseenter(function(){
+        $("#i5").animate({
+        opacity: '1',
+        height: '100px', 
+        width: '100px',left:'10px',top:'400px'	
+        });
+    });
+
+});
+</script>
+
+<style>
+#i1{width:400px; height:400px; position:absolute;left:200px;top:200px;}	
+#i2{width:400px; height:400px; position:absolute;left:200px;top:200px;}	
+#i3{width:200px; height:200px; position:absolute;left:200px;top:400px;}	
+#i4{width:100px; height:100px; position:absolute;left:10px;top:400px;}	
+#i5{width:0px; height:0px; position:absolute;left:50px;top:400px;}	
+
+</style>
+
+</head>
+<body>
+
+<p id="p1">Sunrise</p>
+<p id="p2">Sunset</p>
+<p id="p3">Bird</p>
+<p id="p4">Sad</p>
+<p id="p5">Happy</p>
+
+<img id="i1" src="sunrise.jpeg"/>
+<img id="i2" src="sunset.jpeg"/>
+<img id="i3" src="animatedgifbird.gif"/>
+<img id="i4" src="sad.jpeg"/>
+<img id="i5" src="happy.jpeg"/>
+
+
+</body>
+</html>
